@@ -9,8 +9,8 @@ namespace QueueWithMax
         {
             // Example for work of queue
             // Moving max implementation for queue length 2
-            var mm_list = new[] { 1, 2, 5, 1, 0, 6 }.MovingMax(2);
-            foreach (var num in mm_list)
+            var movMaxList = new[] { 1, 2, 5, 1, 0, 6 }.MovingMax(2);
+            foreach (var num in movMaxList)
                 Console.WriteLine(num);           
         }       
     }
